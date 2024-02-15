@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.cours_section_1 {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://eduauraapublic.s3.ap-south-1.amazonaws.com/webassets/images/blogs/how-to-become-a-programmer-in-india.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    padding: 40px 90px;
+    box-sizing: border-box;
+}
+.cours_section_1 h2{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    font-size: 60px;
+    margin-top: 100px;
+}
+.cours_section_1 div {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
