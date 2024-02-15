@@ -186,6 +186,10 @@
 #dropdown-a {
     color: var(--primary-color);
 }
+.active_link {
+    border-right: 2px solid #6C63FF;
+    color: #6C63FF;
+}
 
 .drop-front:hover .dropdown-content2 {
     display: block;
