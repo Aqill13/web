@@ -1,4 +1,3 @@
-
 // ? Login Form Display None / Flex
 const loginformDisplay = document.querySelector(".loginform-content");
 const closeFormBtn = document.querySelector("#close-form");
@@ -113,3 +112,50 @@ function prevComments() {
   if (index < 0) index = H10images.length - 1;
   showComment();
 }
+
+// ! Hisse 7 box hover mouse effect
+
+const kutular = document.querySelectorAll("#hisse7-box");
+
+kutular.forEach((kutu) => {
+  kutu.addEventListener("mousemove", (e) => {
+    const mouseX = e.pageX;
+    const mouseY = e.pageY;
+
+    const kutuRect = kutu.getBoundingClientRect();
+    const kutuX = kutuRect.left + window.scrollX;
+    const kutuY = kutuRect.top + window.scrollY;
+
+    const offsetX = mouseX - kutuX;
+    const offsetY = mouseY - kutuY;
+
+    kutu.style.background = `radial-gradient(circle at ${offsetX}px ${offsetY}px, #666 -250%, var(--primary-color) 70%)`;
+  });
+
+  kutu.addEventListener("mouseleave", () => {
+    kutu.style.background = "var(--primary-color)"; // Mouse çıkınca orijinal rengine dön
+  });
+});
+
+// ! Hisse 6 box hover mouse effect
+const kutular_h6 = document.querySelectorAll("#hisse6-box");
+
+kutular_h6.forEach((kutu) => {
+  kutu.addEventListener("mousemove", (e) => {
+    const mouseX = e.pageX;
+    const mouseY = e.pageY;
+
+    const kutuRect = kutu.getBoundingClientRect();
+    const kutuX = kutuRect.left + window.scrollX;
+    const kutuY = kutuRect.top + window.scrollY;
+
+    const offsetX = mouseX - kutuX;
+    const offsetY = mouseY - kutuY;
+
+    kutu.style.background = `radial-gradient(circle at ${offsetX}px ${offsetY}px, #6C63FF -250%, var(--primary-color) 70%)`;
+  });
+
+  kutu.addEventListener("mouseleave", () => {
+    kutu.style.background = "var(--primary-color)"; // Mouse çıkınca orijinal rengine dön
+  });
+});

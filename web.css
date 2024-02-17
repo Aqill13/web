@@ -22,9 +22,6 @@
 }
 
 /* ! hisse 1 css code */
-.container {
-    position: relative;
-}
 
 .navbar {
     background-color: var(--primary-color);
@@ -35,6 +32,7 @@
     position: sticky;
     top: 0;
     z-index: 12;
+    border-bottom: 1px solid #9999;
 }
 
 .logoDiv h3 {
@@ -449,7 +447,7 @@
 
 .hisse2 {
     padding: 40px 20px;
-    background-color: rgb(33, 32, 46);
+    background-color: rgb(13, 37, 65);
     position: relative;
 }
 
@@ -906,7 +904,7 @@
 /* ! hisse 5 css code */
 
 .hisse5 {
-    background-color: #21202E;
+    background-color: rgb(13, 37, 65);
     position: relative;
     width: 100%;
     padding: 100px 0;
@@ -1016,7 +1014,7 @@
     position: absolute;
     height: 60px;
     width: 50%;
-    background-color: #21202E;
+    background-color: rgb(13, 37, 65);
     top: 0;
     right: 0;
     border-radius: 0 0 100% 0;
@@ -1028,7 +1026,7 @@
     position: absolute;
     height: 60px;
     width: 50%;
-    background-color: #21202E;
+    background-color: rgb(13, 37, 65);
     top: 0;
     left: 0;
     border-radius: 0 0 0 100%;
@@ -1144,7 +1142,7 @@
 /* ! hisse 8 css code */
 
 .hisse8 {
-    background-color: #21202E;
+    background-color: rgb(13, 37, 65);
     width: 100%;
     padding: 100px 0;
     position: relative;
