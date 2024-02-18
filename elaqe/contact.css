@@ -1,0 +1,83 @@
+/* ? Elaqe section 1 */
+.contact_section{
+    padding: 60px 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact_section h2{
+    text-align: center;
+    font-size: 50px;
+    color: #444;
+}
+
+.contacts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    margin-top: 60px;
+}
+
+.contacts .box{
+    background-color: #0D2541;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contacts .box h3{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contacts .box p{
+    color: #6C97FF;
+}
+
+/* ? maps _ elaqe  */
+
+.maps_elaqe{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.maps{
+    width: 100%;
+}
+
+.elaqe{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #e3e0e067;
+    width: 100%;
+    padding: 50px 100px;
+}
+
+.elaqe input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #999;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.elaqe textarea{
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.elaqe button {
+    margin-top: 20px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #0D2541;
+    background-color: #0D2541;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    letter-spacing: 1px;
+}
+.elaqe button:hover {
+    background-color: #273e56;
+}

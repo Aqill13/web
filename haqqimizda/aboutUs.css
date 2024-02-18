@@ -1,0 +1,297 @@
+
+/* ? ABOUT BOLMESI, SECTION 1 css code */
+.about_section_1 {
+    padding: 40px 90px;
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    gap: 80px;
+    background-color: #F3F6FB;
+}
+
+.about_section_1 .about_about {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about_section_1 .about_about h2 {
+    color: #444;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.about_section_1 .about_about p {
+    color: #666;
+    font-size: 19px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about_section_1 .about_img img {
+    width: 450px;
+    border: 10px solid #fff;
+}
+
+/* ? section arasi dalga */
+
+.custom-shape-divider-top-1708178039 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1708178039 svg {
+    position: relative;
+    display: block;
+    width: calc(124% + 1.3px);
+    height: 112px;
+}
+
+.custom-shape-divider-top-1708178039 .shape-fill {
+    fill: #F3F6FB;
+}
+
+/* ? ABOUT SECTION 2 CSS CODE */
+
+.about_section_2 {
+    padding: 40px 90px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.about_section_2 .img img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.about_section_2 .text p {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #444;
+}
+
+.about_section_2 .text h2 {
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6C63FF;
+}
+
+/* ? ABOUT SECTION 3 css code  (bizim komanda)*/
+
+.about_section_3 {
+    padding: 40px 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about_section_3 h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #444;
+}
+
+.about_section_3 .contents {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin-top: 70px;
+    gap: 100px;
+}
+
+.contents .content-box {
+    width: 100%;
+}
+
+.contents .content-box img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.contents .content-box h3 {
+    color: #444;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 0;
+}
+
+.contents .content-box p span {
+    color: #ddd;
+    font-size: 30px;
+    margin-right: 6px;
+}
+
+.contents .content-box p {
+    display: flex;
+    align-items: center;
+    color: #666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contents .content-box .box-socialIcons i {
+    color: #444;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid #444;
+}
+
+.contents .content-box .box-socialIcons i:nth-child(2) {
+    margin-left: 6px;
+}
+
+.contents .content-box .box-socialIcons i:nth-child(1):hover {
+    color: #1877F2;
+    border-color: #1877F2;
+}
+
+.contents .content-box .box-socialIcons i:nth-child(2):hover {
+    color: #f25042;
+    border-color: #f25042;
+}
+
+/* ? ABOUT SECTION 4 (QALEREYA, splide js) */
+
+.splide{
+    padding: 40px 200px;
+    position: relative;
+    background-color: #0D2541;
+    box-sizing: border-box;
+}
+
+.splide h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    margin-top: 60px;
+}
+.splide__track{
+    margin-top: 60px;
+}
+.splide__track ul {
+    
+}
+.splide__slide{
+    background-color: #fff;
+    height: 500px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.splide__slide img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* butons, splide */
+
+.splide__arrow i {
+    position: absolute;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0D2541;
+}
+
+.splide__arrow--next {
+    margin-right: 95px;
+    margin-top: 70px;
+}
+
+.splide__arrow--prev {
+    margin-left: 95px;
+    margin-top: 70px;
+}
+
+/* ? ABOUT SECTION 4 (QALEREYA, splide js) */
+
+.about_section_5{
+    text-align: center;
+    padding: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about_section_5 h2{
+    color: #444;
+    font-size: 40px;
+}
+
+.about_section_5 p{
+    margin: 40px 0;
+    font-size: 20px;
+    color: #555;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about_section_5 button{
+    padding: 10px;
+    width: 200px;
+    font-size: 19px;
+    border-radius: 5px;
+    color: #6C63FF;
+    border: 2px solid #6C63FF;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.about_section_5 button:hover {
+    background-color: #6C63FF;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.custom-shape-divider-bottom-1708189433 {
+    position: relative;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1708189433 svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 109px;
+}
+
+.custom-shape-divider-bottom-1708189433 .shape-fill {
+    fill: #0D2541;
+}
+
+.custom-shape-divider-top-1708189907 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1708189907 svg {
+    position: relative;
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 146px;
+}
+
+.custom-shape-divider-top-1708189907 .shape-fill {
+    fill: #0D2541;
+}
