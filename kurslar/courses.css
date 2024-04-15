@@ -731,32 +731,39 @@
 .front_about {
     background: linear-gradient(to right top, rgb(230, 94, 94), transparent, rgb(244, 86, 86));
 }
+
 .back_about {
     background: linear-gradient(to right top, rgb(54, 171, 210), transparent, rgb(54, 171, 210));
 }
+
 .dizayn_about {
     background: linear-gradient(to right top, rgb(228, 190, 36), transparent, rgb(228, 190, 36));
 }
-.secilmis_kurs_box_about div{
+
+.secilmis_kurs_box_about div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.secilmis_kurs_box_about div h4{
+
+.secilmis_kurs_box_about div h4 {
     align-items: center;
     display: flex;
 }
-.secilmis_kurs_box_about div h4 i{
+
+.secilmis_kurs_box_about div h4 i {
     color: orange;
 }
-.secilmis_kurs_bnt{
+
+.secilmis_kurs_bnt {
     padding: 8px;
     border-radius: 5px;
     border: 2px solid #333;
     font-size: 17px;
     cursor: pointer;
 }
-.secilmis_kurs_bnt:hover{
+
+.secilmis_kurs_bnt:hover {
     transform: translateY(-3px);
 }
 
@@ -906,36 +913,41 @@
     margin: 5px 0;
 }
 
-/* ? course_section_8 (abune) */
+/* ? course_section_8 (abone) */
 
-.course_section_8{
+.course_section_8 {
     padding: 40px 90px;
     background-color: rgb(13, 37, 65);
     border-bottom: 1px solid rgb(16, 45, 79);
 }
-.section_8_boxes{
+
+.section_8_boxes {
     display: flex;
     background: #fff;
     border-radius: 5px;
     padding: 30px;
     align-items: center;
 }
+
 .section_8_box {
     width: 100%;
 }
-.section_8_box h3{
+
+.section_8_box h3 {
     color: rgb(13, 37, 65);
     font-size: 17px;
     letter-spacing: 1px;
 }
-.section_8_box:nth-child(2) input{
+
+.section_8_box:nth-child(2) input {
     width: 70%;
     padding: 10px;
     border-radius: 5px;
     outline: none;
     border: 2px solid rgb(13, 37, 65);
 }
-.section_8_box:nth-child(2) button{
+
+.section_8_box:nth-child(2) button {
     width: 20%;
     padding: 10px;
     border-radius: 5px;
@@ -946,7 +958,8 @@
     transition: 0.2s;
     cursor: pointer;
 }
-.section_8_box:nth-child(2) button:hover{
+
+.section_8_box:nth-child(2) button:hover {
     background-color: rgb(13, 37, 65);
     color: #fff;
 }
